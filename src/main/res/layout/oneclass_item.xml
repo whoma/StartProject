@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/one_item"
+            android:layout_width="100dp"
+            android:textColor="#818181"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/two_item"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </TableRow>
+
+</TableLayout>
+

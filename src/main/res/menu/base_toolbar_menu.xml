@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/study_time"
+        android:title="第五周"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/sync"
+        android:title="刷新"
+        android:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/change_stduty"
+        android:title="设置周次"
+        android:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/change_acount"
+        android:title="更换账号"
+        android:showAsAction="never"
+        ></item>
+
+
+</menu>

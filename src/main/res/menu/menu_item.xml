@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/wifi_item"
+            android:checkable="true"
+            android:icon="@drawable/wifi"
+            android:title="WIFI登录"></item>
+
+    </group>
+
+
+    <group>
+        <item
+            android:id="@+id/study_item"
+            android:checkable="true"
+            android:icon="@drawable/study"
+            android:title="课程表"></item>
+
+    </group>
+
+</menu>

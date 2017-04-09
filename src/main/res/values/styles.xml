@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/window</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_Primary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 定制色板 -->
+    <style name="MyColorApple" parent="Theme.AppCompat">
+
+        <item name="android:colorPrimary">@color/primary</item>
+
+
+    </style>
+
+    <style name="PopupToolbarTheme" parent="AppTheme">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:colorBackground">#ffffff</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="android:actionOverflowButtonStyle">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="AppTheme">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@android:color/white</item>
+        <!--
+        <item name="android:actionOverflowButtonStyle">@style/MyFlowStyle</item>
+        -->
+    </style>
+<!--
+    <style name="MyFlowStyle" parent="android:Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/muti.svg</item>
+    </style>
+    -->
+
+
+
+
+</resources>
